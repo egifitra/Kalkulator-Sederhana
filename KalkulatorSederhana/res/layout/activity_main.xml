@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kalkulatorsederhana.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hello_world" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="14"
+        android:hint="@string/inputkan_bilangan_pertama"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:ems="14"
+        android:hint="@string/inputkan_bilangan_kedua"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <Button
+        android:id="@+id/Kur"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="111dp"
+        android:text="@string/Kurang" />
+
+    <Button
+        android:id="@+id/Kal"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Kur"
+        android:layout_below="@+id/Kur"
+        android:text="@string/Kali" />
+
+    <Button
+        android:id="@+id/Bag"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Kal"
+        android:layout_below="@+id/Kal"
+        android:text="@string/Bagi" />
+
+    <Button
+        android:id="@+id/Tamb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Bag"
+        android:layout_below="@+id/Bag"
+        android:text="@string/Tambah" />
+
+    <Button
+        android:id="@+id/Mode"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Tamb"
+        android:layout_below="@+id/Tamb"
+        android:text="@string/Moderator" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Mode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/hasil"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

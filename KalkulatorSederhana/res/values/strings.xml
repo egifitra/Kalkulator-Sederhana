@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kalkulator Sederhana</string>
+    <string name="hello_world">Selamat Datang di Kalkulator Sederhana</string>
+    <string name="action_settings">Settings</string>
+    <string name="inputkan_bilangan_pertama">Inputkan Bilangan Pertama</string>
+	<string name="inputkan_bilangan_kedua">Inputkan Bilangan Kedua</string>
+	<string name="Tambah">+</string>
+	<string name="Kurang">-</string>
+	<string name="Kali">x</string>
+	<string name="Bagi">/</string>
+	<string name="Moderator">Mod</string>
+	<string name="hasil">Hasil</string>
+	
+</resources>
